@@ -3,6 +3,24 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Unbounded';
+    src: url(/fonts/Unbounded/Unbounded-Medium.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url(/fonts/Unbounded/Unbounded-ExtraLight.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url(/fonts/Unbounded/Unbounded-Bold.ttf);
+    font-weight: 700;
+}
+
 body{ 
     display: flex;
     justify-content: center;
@@ -27,6 +45,7 @@ body{
 .container p {
     color: #fff;
     font-size: 20px;
+    font-family: 'Unbounded';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -51,7 +70,7 @@ body{
 .container input::placeholder {
     color: #fff;
     font-size: 16px;
-    font-style: normal;
+    font-family: 'Unbounded';
     font-weight: 300;
     list-style: none;
 }
@@ -70,6 +89,8 @@ body{
     margin-left: 16px;
     margin-top: 228px;
     color: #fff;
+    font-family: 'Unbounded';
     font-size: 18px;
+    font-weight: bold;
     line-height: normal;
 }
