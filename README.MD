@@ -1,0 +1,1 @@
+Este proyecto es una aplicación que permite registrar asistencia de manera eficiente.
